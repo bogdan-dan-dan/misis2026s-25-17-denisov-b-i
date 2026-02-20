@@ -66,7 +66,7 @@ std::ostream& Complex::WriteTo(std::ostream& ostrm) const noexcept {
 }
 
 std::istream& Complex::ReadFrom(std::istream& istrm) noexcept {
-    istrm >> leftBrace >> re >> im >> rightBrace;
+    istrm >> leftBrace >> re >> separator >> im >> rightBrace;
     return istrm;
 }
 

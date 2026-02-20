@@ -4,6 +4,6 @@ project(MyProject)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_subdirectory(labs/complex)
+add_subdirectory(prj.labs/complex)
 
 target_link_libraries(main PRIVATE complex)
